@@ -1,0 +1,18 @@
+/*Resume*/
+.content {margin: 10px auto; padding: 25px;  width: 640px; border: 1px solid #dadada;background: #ffffff; line-height: 32px;  }
+.resume p { margin-bottom: 0; }
+.resume .top { text-align: center; }
+.resume .top-title { margin: 10px auto; width: 240px; height: 50px; font-size: 32px;line-height: 50px;  }
+.resume .title { width: 100%; background-color: #dadada; color: #6c6c6c;text-indent: 10px; font-size: 18px;  }
+.resume .photo {margin: 10px 15px;width: 120px;  height: 175px;  }
+.resume .exp-job { width: 140px; }
+.resume .exp-date { width: 210px; }
+.resume .project-title { width: 345px; font-weight: bolder; }
+.resume .project-date { width: 280px; text-align: right; }
+.resume .indent30 { text-indent: 30px; }
+.resume .w150 { width: 150px; }
+.resume .w250 { width: 250px; }
+.resume .w475 { width: 475px; }
+.w550 { width: 550px; }
+.prompt {margin: 15px auto;  width: 700px; text-align: center; font-size: 16px; line-height: 32px; }
+.navi { margin: 0 auto; margin-bottom: 20px;width: 630px;  }

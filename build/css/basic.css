@@ -1,0 +1,8 @@
+.clearfix:after {display: block; visibility: hidden;  clear: both; width: 0; height: 0;content: ' '; font-size: 0; line-height: 0; }
+.clearfix { display: inline-block; }
+.inline {display: inline-block; vertical-align: top; zoom: 1; *display: inline; }
+.wrap {overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tab-navi {padding: 0 15px; border-bottom: #dddddd 1px solid; vertical-align: top;  }
+.tab-navi .cell {padding: 0 14px; height: 23px; border-top: #ffffff 1px solid; border-right: #ffffff 1px solid; border-left: #ffffff 1px solid; color: #333333; text-align: center; font-size: 12px;  font-family: Microsoft YaHei, '微软雅黑', Arial, '宋体'; line-height: 22px; cursor: pointer; }
+.tab-navi .cell.active {margin-bottom: -1px;border-top: #1c94e0 2px solid; border-right: #dddddd 1px solid;  border-bottom: #ffffff 1px solid; border-left: #dddddd 1px solid; color: #4b4b4b;  }
+.tab-navi .loading {width: 75px; height: 23px; background-color: white; background-position: center; background-repeat: no-repeat; line-height: 22px;  }

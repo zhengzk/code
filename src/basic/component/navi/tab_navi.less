@@ -1,0 +1,36 @@
+@font-family: Microsoft YaHei, "微软雅黑", Arial, "宋体";
+
+.tab-navi{
+  border-bottom:#ddd 1px solid;
+  vertical-align:top;
+  padding: 0px 15px;
+  .cell {
+    font-family: @font-family;
+    border-left: #fff 1px solid;
+    border-right: #fff 1px solid;
+    border-top: #fff 1px solid;
+    padding: 0px 14px;
+    height: 23px;
+    line-height: 22px;
+    color: #333333;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    &.active {
+      border-bottom: #fff 1px solid;
+      border-left: #ddd 1px solid;
+      border-right: #ddd 1px solid;
+      border-top: #1c94e0 2px solid;
+      color: #4b4b4b;
+      margin-bottom: -1px;
+    }
+  }
+  .loading{
+    background-position:center;
+    background-repeat:no-repeat;
+    height:23px;
+    line-height:22px;
+    width:75px;
+    background-color:white;
+  }
+}
